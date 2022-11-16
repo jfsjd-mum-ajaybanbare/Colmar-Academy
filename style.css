@@ -1,0 +1,282 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* 
+Hero section 
+*/
+.hero-container {
+    background-color: #d8d8d8;
+    display: flex;
+    padding: 32px 24px;
+}
+
+
+.hero-left img {
+    width: 100%;
+    padding: 32px 24px;
+}
+
+.hero-right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 1%;
+    padding: 0 2%;
+}
+
+.hero-right > h1, h4 {
+    padding: 5%;
+    color: #4a4a4a;
+}
+
+.hero-right a {
+    color: white;
+    text-decoration: none;
+}
+.hero-container button {
+    background-color: #4a4a4a;
+    width: 100%;
+    height: 3rem;
+    cursor: pointer;
+    color: white;
+}
+.hero-left p{
+    padding-bottom: 32px;
+}
+
+
+/* 
+News section
+*/
+.news-container {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    color: grey;
+}
+
+/**** News left ****/
+
+.news-left {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+
+.news-left img {
+    width: 100%;
+    padding: 32px 24px;
+}
+
+
+
+.news-left-info h2{
+    color: #4a4a4a;
+    padding-bottom: 24px;
+    padding-left: 24px;
+}
+.news-left-info p{
+    padding-left: 24px;
+    color: #4a4a4a;
+    font-size: 80%;
+}
+
+
+/**** News right ****/
+
+.news-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.news-right img {
+    width: 10rem;
+}
+
+.news-right h4 {
+    font-size: 140%;
+    color: #4a4a4a;
+}
+.news-right p{
+    padding-left: 14px;
+}
+
+.news-right button{
+    background: none;
+    border: 0;
+}
+
+.news-right a{
+    text-decoration: none;
+    padding-left: 14px;
+}
+.orientation, .campus, .guest {
+    display: flex;
+    border: 1px solid #e0dded;
+    padding: 6%;
+}
+
+.orientation-info, .campus-info, .guest-info {
+    padding: 0 5%; 
+    margin-top: 4%;
+   font-size: 100%;
+   color: #4a4a4a;
+}
+
+
+.guest {
+    background-color: #d8d8d8;
+    margin: 0 0 2% 0;
+}
+
+/* 
+Start learning section 
+*/
+.sl-container {
+    background-color: #eaebec;
+    padding: 2% 5% 8% 5%;
+}
+.sl-container > h1 {
+    text-align: center;
+    color: #4a4a4a;
+    padding: 4%;
+}
+
+/**** Start learning grid ****/
+.sl-grid-wrapper {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fill, minmax(30%, 1fr)); */
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 32px;
+}
+
+.sl-grid-wrapper img {
+    width: 100%;
+}
+/**** Start learning individual card****/
+.sl-grid-wrapper > * {
+    display: flex;
+    flex-direction: column;
+}
+
+.sl-info {
+    background-color: white;
+    padding: 5%;
+}
+
+.sl-info > * {
+    padding: 3% 0;
+}
+
+.sl-info > p {
+    font-size: medium;
+    color: #525252;;
+}
+
+/* 
+Thesis exhibit section 
+*/
+.thesis-container > h1 {
+    color: var(--dark-grey);
+    text-align: center;
+    padding: 5%;
+}
+
+.thesis-grid {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+
+
+/**** Urban container ****/
+.urban-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 3%;
+}
+
+.urban-video > video {
+    width: 100%;
+}
+
+.urban-info {
+    padding: 1% 0 5% 0;
+}
+
+.urban-info > * {
+    padding: 1% 0;
+}
+
+.urban-info > p {
+    font-size: small;
+    color: var(--dark-grey);
+}
+
+/**** Other thesis container ****/
+.other-thesis-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.other-thesis-container img {
+    width: 10rem;
+}
+
+.other-thesis-container p{
+    font-size: small;
+    color:#525252;
+}
+
+.fisma, .now-and-then {
+    display: flex;
+    padding: 5%;
+}
+
+.fisma {
+    background-color: #d8d8d8;
+}
+
+.fisma-info, .nt-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fisma-info > *, .nt-info>* {
+    padding: 1%;
+    margin: 5% 8%;
+}
+
+/* 
+Footer 
+*/
+footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #d8d8d8;
+    margin-bottom: 1%;
+}
+
+footer > * {
+    font-size:small;
+    color:#525252;
+    margin-top: 0;
+    padding-top: 0.5%;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+}
+
+footer a {
+    text-decoration: none;
+    color:#4a4a4a;
+    text-align: right;
+}
+
+footer li {
+    padding: 0 1em;
+    justify-content: right;
+}
